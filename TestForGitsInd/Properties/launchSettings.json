@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TestForGitsInd": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
