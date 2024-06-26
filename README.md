@@ -6,7 +6,7 @@
 - Docker ready
 
 Answer for #2
-```
+```c#
 var brackets = new[] { [ '{', '}' ], [ '[', ']' ], new[] { '(', ')' }  };
 for (var j = 0; j < brackets.Length; j++)
 {
