@@ -10,7 +10,7 @@ Answer for #2
 var brackets = new[] { [ '{', '}' ], [ '[', ']' ], new[] { '(', ')' }  };
 for (var j = 0; j < brackets.Length; j++)
 {
-    //Using LINQ to filters out the the opening and the closing brackest
+    //Using LINQ to filters out the the opening and the closing brackets
     var b = brackestString.Where(c => c == brackets[j][0] || c == brackets[j][1])
         .Select((c, ii) => (c == brackets[j][0]) == (ii % 2 == 0))
         .ToArray();
