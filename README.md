@@ -1,6 +1,6 @@
 # TestForGitsInd
 
-- Developed using Visual Studio 20222
+- Developed using Visual Studio 2022
 - Using .Net core 8.0
 - Console application
 - Docker ready
