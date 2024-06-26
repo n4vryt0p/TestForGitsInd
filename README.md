@@ -6,6 +6,7 @@
 - Docker ready
 
 Answer for #2
+```
 var brackets = new[] { [ '{', '}' ], [ '[', ']' ], new[] { '(', ')' }  };
 for (var j = 0; j < brackets.Length; j++)
 {
@@ -16,3 +17,4 @@ for (var j = 0; j < brackets.Length; j++)
     //Then checks that there are only alternating brackets (starting with the opening), an even number
     var isCool = b.Length % 2 == 0 && b.All(ii => ii)
 }
+```
